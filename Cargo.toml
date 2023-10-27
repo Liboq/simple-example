@@ -1,0 +1,25 @@
+[package]
+name = "guess_game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[example]]
+name = "first"
+path = "src/examples/first.rs"
+
+[[example]]
+name = "two"
+path = "src/examples/two.rs"
+
+[[example]]
+name = "three"
+path = "src/examples/three.rs"
+
+[[example]]
+name = "guess"
+path = "src/examples/guess.rs"
+
+[dependencies]
+rand = "0.8.5"
