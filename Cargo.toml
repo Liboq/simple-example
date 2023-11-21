@@ -18,6 +18,10 @@ name = "three"
 path = "src/examples/three.rs"
 
 [[example]]
+name = "four"
+path = "src/examples/four.rs"
+
+[[example]]
 name = "guess"
 path = "src/examples/guess.rs"
 

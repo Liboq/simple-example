@@ -1,0 +1,249 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'guess_game'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "guess_game",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'guess_game'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=guess_game",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "guess_game",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'guess_game'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=guess_game",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "guess_game",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'first'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=first",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "first",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'first'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=first",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "first",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'two'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=two",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "two",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'two'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=two",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "two",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'three'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=three",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "three",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'three'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=three",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "three",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'four'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=four",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "four",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'four'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=four",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "four",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'guess'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=guess",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "guess",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'guess'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=guess",
+                    "--package=guess_game"
+                ],
+                "filter": {
+                    "name": "guess",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
